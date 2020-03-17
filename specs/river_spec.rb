@@ -23,5 +23,5 @@ class RiverTest < MiniTest::Test
   def test_river_contents()
     assert_equal(2, @river.fish_number)
   end
-
+  
 end

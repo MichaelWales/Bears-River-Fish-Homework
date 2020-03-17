@@ -12,4 +12,8 @@ class River
     return @fish.size
   end
 
+  def fish_eaten_by_bear(fish)
+    @fish.delete(fish)
+  end
+
 end
