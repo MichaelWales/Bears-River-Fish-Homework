@@ -6,7 +6,5 @@ class Fish
     @name = name
     @fishes = []
   end
-
-
-
+  
 end
